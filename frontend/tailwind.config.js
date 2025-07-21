@@ -8,20 +8,7 @@ export default {
   },
   plugins: [daisyui],
   daisyui: {
-    themes: [
-      "pastel",
-      "retro",
-      "coffee",
-      "forest",
-      "cyberpunk",
-      "synthwave",
-      "luxury",
-      "autumn",
-      "valentine",
-      "aqua",
-      "business",
-      "night",
-      "dracula",
-    ],
+    themes: ["light", "dark", "cupcake", "bumblebee", "emerald", "corporate", "synthwave", "retro", "cyberpunk", "valentine", "halloween", "garden", "forest", "aqua", "lofi", "pastel", "fantasy", "wireframe", "black", "luxury", "dracula", "cmyk", "autumn", "business", "acid", "lemonade", "night", "coffee", "winter"],
   },
+  darkMode: ['selector', '[data-theme="night"]']
 };
